@@ -23,6 +23,7 @@ drawings:
 transition: slide-left
 # use UnoCSS
 css: unocss
+download: true
 ---
 
 # Welcome to Slidev
@@ -443,7 +444,6 @@ src: ./pages/git-commit/git-commit.md
 hide: false
 ---
 ---
-download: true
 transition: fade
 src: ./pages/git-commit/git-commit-example.md
 hide: false
