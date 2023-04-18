@@ -1,6 +1,6 @@
 ### Git flow Diagrams Streaming Dev Team
 
-<div class="flex justify-center h-screen items-start">
+<div class="flex items-center mx-0 p-0">
 
 ```mermaid {scale: 0.1}
 %%{init: { 'logLevel': 'debug', 'theme': 'default' } }%%
