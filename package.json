@@ -2,7 +2,7 @@
   "name": "slidev",
   "private": true,
   "scripts": {
-    "build": "slidev build --download",
+    "build": "slidev build",
     "dev": "slidev --open",
     "export": "slidev export --with-toc"
   },
