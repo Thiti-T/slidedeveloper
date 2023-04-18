@@ -1,23 +1,51 @@
-# Git flow Diagrams Streaming Dev Team
+### Git flow Diagrams Streaming Dev Team
 
-<div class="flex justify-center mx-auto">
+<div class="flex justify-center h-screen items-start">
 
-```mermaid {scale: 0.5}
+```mermaid {scale: 0.1}
 %%{init: { 'logLevel': 'debug', 'theme': 'default' } }%%
       gitGraph
         commit
+        branch hotfix
+        checkout hotfix
         commit
         branch develop
         checkout develop
-        commit
+        commit id:"ash" tag:"abc"
+        branch featureB
+        checkout featureB
+        commit type:HIGHLIGHT
+        checkout main
+        checkout hotfix
+        commit type:NORMAL
+        checkout develop
+        commit type:REVERSE
+        checkout featureB
         commit
         checkout main
-        merge develop
+        merge hotfix
+        checkout featureB
         commit
-        commit
-        branch hotfix
+        checkout develop
         branch featureA
-        branch featureB
+        commit
+        checkout develop
+        merge hotfix
+        checkout featureA
+        commit
+        checkout featureB
+        commit
+        checkout develop
+        merge featureA
+        branch release
+        checkout release
+        commit
+        checkout main
+        commit
+        checkout release
+        merge main
+        checkout develop
+        merge release
 
 ```
 

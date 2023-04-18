@@ -428,10 +428,12 @@ class: text-center
 
 [Documentations](https://sli.dev) · [GitHub](https://github.com/slidevjs/slidev) · [Showcases](https://sli.dev/showcases.html)
 ---
+transition: slide-up
 src: ./pages/git-flow/git-flow.md
 hide: false
 ---
 ---
+transition: fade
 src: ./pages/git-flow/git-flow-diagram.md
 hide: false
 ---
@@ -441,6 +443,7 @@ src: ./pages/git-commit/git-commit.md
 hide: false
 ---
 ---
+download: true
 transition: fade
 src: ./pages/git-commit/git-commit-example.md
 hide: false
