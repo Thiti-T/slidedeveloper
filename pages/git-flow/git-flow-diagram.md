@@ -1,4 +1,4 @@
-### Git flow Diagrams Streaming Dev Team
+### Git flow Diagrams Streaming Dev Team (3-6 peoples)
 
 <div class="flex items-center mx-0 p-0">
 
@@ -6,47 +6,32 @@
 %%{init: { 'logLevel': 'debug', 'theme': 'default' } }%%
       gitGraph
         commit
-        branch hotfix
-        checkout hotfix
-        commit
         branch develop
-        checkout develop
-        commit id:"ash" tag:"abc"
-        branch featureB
-        checkout featureB
-        commit type:HIGHLIGHT
-        checkout main
-        checkout hotfix
-        commit type:NORMAL
-        checkout develop
-        commit type:REVERSE
-        checkout featureB
         commit
-        checkout main
-        merge hotfix
-        checkout featureB
-        commit
-        checkout develop
         branch featureA
-        commit
-        checkout develop
-        merge hotfix
         checkout featureA
         commit
-        checkout featureB
         commit
+        commit
+        commit id: "PULL REQUEST" type:HIGHLIGHT
         checkout develop
         merge featureA
+        commit
         branch release
         checkout release
-        commit
+        commit id: "add tag (DEPLOY)" tag: "release/1.0" TYPE: HIGHLIGHT
         checkout main
-        commit
-        checkout release
-        merge main
-        checkout develop
         merge release
-
+        commit  tag: "1.0" TYPE: HIGHLIGHT
+        checkout develop
+        merge main
+        branch hotfix
+        checkout hotfix
+        commit tag: "1.2"
+        checkout develop
+        merge hotfix
+        checkout main
+        merge hotfix
 ```
 
 </div>

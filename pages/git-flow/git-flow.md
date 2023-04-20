@@ -1,9 +1,13 @@
-# Git flow
+---
+title: Git flow (Discussion)
+---
+
+# Git flow (Discussion)
 
 ### Main Branches
 
 - 📝 **master or main** - release for production (stable code) --> version tag here
-- 🎨 **develop** - develop base to feature branch
+- 🎨 **develop** - development code base to feature branch
 
 ### Supporting Branches
 
@@ -12,3 +16,4 @@
 - 🎥 **hotfix** - if issue from release will create new branch from master to hotfix afterwards merge back in to master and develop
 
 [Docs](https://github.com/nvie/gitflow)
+
